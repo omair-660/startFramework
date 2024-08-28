@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.heading::after {
+    content: "";
+    position: absolute;
+    width: 80%;
+    height: 3px;
+    background-color: #ffffff;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.active {
+    position: relative;
+    background: #10b981;
+    padding: 6px;
+    border-radius: 8px;
+}
